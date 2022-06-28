@@ -3,11 +3,11 @@ import { useGlobalContext } from '../context'
 
 const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext()
-  return (
+  const searchValue = React.useRef('');
     <div>
       <h2>search form component</h2>
     </div>
-  )
+  
 }
 
 export default SearchForm
